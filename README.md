@@ -11,10 +11,10 @@ import strenc
 echo "hello world"
 echo "how are you?"
 ```
-In compiled C code (or in any other backend, strenc works with all of them, although with the JS backend it'll be much easier for "interested" people to get the original contents back) strings will look like this:
+In the compiled C code strings will look like this:
 ```c
-STRING_LITERAL(TM__huvhZYSc4ExMXNTyiw83eQ_2, "as{xz2d\177cr{", 11);
-STRING_LITERAL(TM__huvhZYSc4ExMXNTyiw83eQ_3, "kov\036^NX\032BWL\011", 12);
+STRING_LITERAL(TM__huvhZYSc4ExMXNTyiw83eQ_2, "!+# \"r$\?#:3", 11);
+STRING_LITERAL(TM__huvhZYSc4ExMXNTyiw83eQ_3, "qul<|lz0h}f+", 12);
 ```
 If you wish to disable all hints for places where the encryption was applied, add ``hint("Pattern", false)``
 to your `.nims` config file, or, if you use `.cfg`, ``--hint[Pattern]:off``
