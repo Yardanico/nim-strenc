@@ -1,3 +1,6 @@
+# This repo is abandoned and archived, no further support is expected
+I really made this library as a quick test of Nim's term-rewriting macros. Nim's term-rewriting macros are powerful, but they have their limitations, and there are also some compiler bugs that simply cannot be worked-around in this library (most open issues at the time of writing hit that). Moreover, I've noticed that people who write offensive infosec tools started using strenc. I'm pretty sure that some people who used this library for straight up malware. If you wish to try to continue its development further - feel free to fork, but that'll probably require fixing the relevant TRM parts of the Nim compiler.
+
 # nim-strenc
 This is a Nim library for automatic encryption (currently via XOR with a different key for each string generated at compile-time) of string literals.
 You can install it from Nimble via
